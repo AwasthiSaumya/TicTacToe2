@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
             int tag = Integer.parseInt(img.getTag().toString());
             if (f == 0) {
                 if (arr[tag - 1] == 0) {
-                    img.setTranslationY(-1500);
-                    img.animate().translationYBy(1500).rotation(1800);
+                    img.setTranslationY(-3500);
+                    img.animate().translationYBy(3500).rotation(1800);
 
                     if (player == 1) {
                         img.setImageResource(R.drawable.circle);
