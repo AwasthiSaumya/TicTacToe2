@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Draw", Toast.LENGTH_SHORT).show();
                 button.setVisibility(View.VISIBLE);
             }
-
     }
 
 
