@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
             Button button = findViewById(R.id.button);
             int tag = Integer.parseInt(img.getTag().toString());
             if (f == 0) {
-                if (arr[tag - 1] == 0) {
+                if (arr[tag - 1] == 0)
+                {
                     img.setTranslationY(-3500);
                     img.animate().translationYBy(3500).rotation(1800);
 
