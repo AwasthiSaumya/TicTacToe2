@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             img = (ImageView) view;
             Button button = findViewById(R.id.button);
             int tag = Integer.parseInt(img.getTag().toString());
+        //
             if (f == 0) {
                 if (arr[tag - 1] == 0) {
                     img.setTranslationY(-3500);
