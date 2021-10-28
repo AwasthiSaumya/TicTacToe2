@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     //1st
     //2nd
     //3rd
+    //4th
     
         int player = 1, f = 0;
         int arr[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
