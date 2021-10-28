@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     //circle:1, cross:2
     //1st
     //2nd
+    //3rd
+    
         int player = 1, f = 0;
         int arr[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
         ImageView img;
